@@ -46,3 +46,55 @@ a {
 ul {
   list-style-type: none;
 }
+
+/* MY SOLUTION */
+
+body {
+  display: flex;
+}
+
+.header {
+  display: flex;
+  width: 2000px;
+  padding: 8px;
+  align-items: center;
+}
+
+.logo {
+  margin-left: 16px;
+}
+
+.profile-image {
+  margin-left: 8px;
+  margin-right: 16px;
+}
+
+ul {
+  display: inline-flex;
+  gap: 8px;
+  margin-right: auto;
+}
+
+
+/* ODIN PROJECT SOLUTION*/
+
+/*
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+}
+
+.left, .right {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+*/
